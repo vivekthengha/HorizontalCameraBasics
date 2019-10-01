@@ -19,6 +19,7 @@ import android.util.Log
 import android.util.Rational
 import android.view.*
 import android.webkit.MimeTypeMap
+import android.widget.ImageView
 import androidx.camera.core.*
 import androidx.camera.core.ImageCapture.CaptureMode
 import androidx.camera.core.ImageCapture.Metadata
@@ -367,4 +368,8 @@ class CameraFragment : Fragment() {
                 File(baseFolder, SimpleDateFormat(format, Locale.US)
                         .format(System.currentTimeMillis()) + extension)
     }
+}
+
+private fun ImageView.simulateClick() {
+    TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
 }
